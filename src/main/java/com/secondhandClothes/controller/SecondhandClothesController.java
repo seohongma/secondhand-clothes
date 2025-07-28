@@ -10,4 +10,5 @@ public class SecondhandClothesController {
     public String home() {
         return "index";  // templates/home/index.html
     }
+	
 }
