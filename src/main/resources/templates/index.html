@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>국민 헌옷</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      font-size: 18px;
+    }
+
+    .hero {
+      background: url("/images/banner.png") no-repeat center 35% / cover;
+      height: 600px;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    .outlined {
+      color: white;
+    }
+
+    .hero-subtitle {
+      font-size: 2.4em;
+      font-weight: 600;
+      line-height: 1.4;
+      margin: 0 0 10px;
+    }
+
+    .hero-title {
+      font-size: 3em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .hero-desc {
+      font-size: 1.4em;
+      line-height: 1.6;
+      margin: 0;
+      color: white;
+    }
+
+    .highlight-orange {
+      color: #ff6600;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h3 {
+      color: #004080;
+      font-size: 2.2em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 1.6em;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 40px;
+    }
+
+    .call-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .call-icon img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+
+    .call-text {
+      font-size: 1.6em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .call-button {
+      background-color: #333;
+      color: white;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1.3em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .quote-section {
+      text-align: center;
+      font-size: 1.3em;
+      line-height: 1.7;
+      padding: 40px 20px;
+      color: #333;
+    }
+
+    .quote-section .quote {
+      font-size: 2.4em;
+      margin-bottom: 10px;
+    }
+
+    .service-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-icon {
+      width: 160px;
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .service-icon img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .icon-label {
+      font-size: 1.1em;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .icon-label .blue {
+      color: #0070c0;
+      font-weight: bold;
+    }
+
+    .process-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .process-box {
+      width: 300px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .process-box h4 {
+      margin-bottom: 20px;
+      color: #222;
+      font-size: 1.3em;
+    }
+
+    .step {
+      margin-bottom: 20px;
+    }
+
+    .step img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    .step p {
+      font-size: 1em;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .hero-subtitle {
+        font-size: 1.8em;
+      }
+
+      .hero-title {
+        font-size: 2.2em;
+      }
+
+      .hero-desc {
+        font-size: 1.2em;
+      }
+
+      .section h3 {
+        font-size: 1.8em;
+      }
+
+      .section p {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h2 class="outlined hero-subtitle">서울, 경기 헌 옷 방문 수거 전문 업체</h2>
+    <h1 class="outlined hero-title">‘<span class="highlight-orange">국민 헌옷</span>’</h1>
+    <p class="outlined hero-desc">간편하게, 편리하게<br>방문 수거 신청하세요</p>
+  </div>
+
+  <div class="call-section">
+    <div class="call-icon">
+      <img src="/images/phone-icon.png" alt="전화 아이콘">
+    </div>
+    <div class="call-text">대표전화 : <strong>010-7654-0327</strong></div>
+    <a href="tel:01076540327" class="call-button">바로 전화걸기</a>
+  </div>
+
+  <div class="quote-section">
+    <div class="quote">“</div>
+    <p>
+      오랫동안 안 입으시는 헌 옷 등<br>
+      나가서 처리하셔야 하는 수고를 덜어드립니다.<br><br>
+      집에 공간은 비워드리고<br>
+      지갑은 현금으로 채워드립니다
+    </p>
+    <div class="quote">”</div>
+  </div>
+
+  <div class="section">
+    <h3>1. 매입 품목 및 단가</h3>
+    <p>헌옷싹수거에서는 최고가 매입으로 해드립니다.</p>
+  </div>
+
+  <div class="section">
+    <h3>2. 서비스 소개</h3>
+    <p>헌옷싹수거의 최상의 서비스를 소개합니다.</p>
+    <div class="service-icons">
+      <div class="service-icon">
+        <img src="/images/icon1.png" alt="헌 옷 수거">
+        <div class="icon-label"><span class="blue">헌 옷</span> 방문 수거</div>
+      </div>
+      <div class="service-icon">
+        <img src="/images/icon2.png" alt="비대면">
+        <div class="icon-label"><span class="blue">비대면</span> 수거 가능</div>
+      </div>
+      <div class="service-icon">
+        <img src="/images/icon3.png" alt="당일 수거">
+        <div class="icon-label"><span class="blue">당일</span> 수거 가능</div>
+      </div>
+      <div class="service-icon">
+        <img src="/images/icon4.png" alt="20kg 이상">
+        <div class="icon-label"><span class="blue">20KG 이상</span> 일 때 가능</div>
+      </div>
+      <div class="service-icon">
+        <img src="/images/icon5.png" alt="엘리베이터 없는 빌라">
+        <div class="icon-label"><span class="blue">엘리베이터 없는</span> 빌라 방문 수거 가능</div>
+      </div>
+      <div class="service-icon">
+        <img src="/images/icon6.png" alt="최고가 매입">
+        <div class="icon-label">헌 옷 <span class="blue">최고가</span> 매입</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>3. 비대면 수거 안내</h3>
+    <p>직접 마주하지 않아도 안전하게 수거해드립니다.</p>
+    <div class="process-container">
+      <div class="process-box">
+        <h4>- 대면 수거시</h4>
+        <div class="step">
+          <img src="/images/face1.png" alt="수거물 모으기">
+          <p>수거할 품목을 모아주세요</p>
+        </div>
+        <div class="step">
+          <img src="/images/face2.png" alt="예약">
+          <p>헌옷싹수거를 통해 방문 수거<br><strong>예약 일정을 잡아주세요</strong></p>
+        </div>
+        <div class="step">
+          <img src="/images/face3.png" alt="측정">
+          <p>방문 일정에 따라 수거 및<br>무게 측정을 해드려요</p>
+        </div>
+        <div class="step">
+          <img src="/images/face4.png" alt="정산">
+          <p>매입 단가에 맞춰 정산을 해드려요</p>
+        </div>
+      </div>
+      <div class="process-box">
+        <h4>- 비대면 수거시</h4>
+        <div class="step">
+          <img src="/images/nonface1.png" alt="비대면 사진">
+          <p>방문 일정에 따라 수거 및<br>무게 측정 사진을 보내드려요</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="call-section">
+    <div class="call-icon">
+      <img src="/images/phone-icon.png" alt="전화 아이콘">
+    </div>
+    <div class="call-text">대표전화 : <strong>010-7654-0327</strong></div>
+    <a href="tel:01076540327" class="call-button">바로 전화걸기</a>
+  </div>
+
+</body>
+</html>
