@@ -11,5 +11,4 @@ public class SecondhandClothesController {
         return "index";  // templates/home/index.html
     }
 	
-	
 }
